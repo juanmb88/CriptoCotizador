@@ -55,6 +55,7 @@ const Formularios = ({setMonedas}) => {
         e.preventDefault()
         if([moneda,criptomoneda].includes('')){
             setError(true)
+            return
         }
         setError(false)
         setMonedas({

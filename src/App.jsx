@@ -31,6 +31,31 @@ const Imagen = styled.img `
   margin: 120px auto 0 auto;
   display: block;
   border-radius : 20px;
+  border-radus : 20px;
+    display: block;
+    transition: .5s;
+ ::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #ffee10;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+ :hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #ffee10;
+}
+ :hover {
+  color: #ffee10;
+  box-shadow: 0 0 5px #ffee10;
+  text-shadow: 0 0 5px #ffee10;
+}
 `;
 /*****************The End / FIN ****************/
 
