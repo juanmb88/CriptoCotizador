@@ -33,7 +33,7 @@ const Imagen = styled.img `
   border-radius : 20px;
   border-radus : 20px;
     display: block;
-    transition: .5s;
+    transition: .4s;
  ::before {
   content: '';
   position: absolute;
